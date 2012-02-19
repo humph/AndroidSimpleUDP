@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UDP Message Send</string>
+    <string name="menuPrefs">Settings</string>
+    <string name="menuHelp">Help</string>
+    <string name="hostname">Hostname</string>
+    <string name="port">Port</string>
+    <string-array name="defined_messages">
+        <item>@string/messagePowerStatus</item>
+        <item>@string/messagePowerOn</item>
+        <item>@string/messagePowerOff</item>
+    </string-array><string name="messagePowerStatus">Power Status</string>
+    <string name="messagePowerOn">Power On</string>
+    <string name="messagePowerOff">Power Off</string>
+    <string name="message">UDP Message</string><string name="buttonSend">Send</string><string name="response">Response</string>
+</resources>

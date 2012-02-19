@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:key="prefHostname" android:title="@string/hostname"/>
+    <EditTextPreference android:key="prefPort" android:title="@string/port"/>
+    <Preference android:title="UDP Messages….." android:key="Spacer" android:selectable="false"/><EditTextPreference android:key="Power Status" android:title="@string/messagePowerStatus"/>
+    <EditTextPreference android:key="Power On" android:title="@string/messagePowerOn"/>
+    <EditTextPreference android:key="Power Off" android:title="@string/messagePowerOff"/>
+    
+    
+
+</PreferenceScreen>

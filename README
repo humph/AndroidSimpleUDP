@@ -1,0 +1,12 @@
+/*
+ * Simple hacky app to send UDP packets used to control power of a remote device
+ * Set hostname, port and the three UDP messages as user defined preferences in Settings Menu
+ * Select which UDP message to send using the spinner/dropdown on the main screen 
+ * The UI thread shows and (bit nasty) also temporarily stores the values of host, port and selected message to send when SEND button hit
+ * (That could be improved!)
+ * Some error conditions not yet handled well (such as empty values in hostname)
+ * Uses Android Annotations https://github.com/excilys/androidannotations
+ * Inspired by the code snippet for boxeeremote at http://code.google.com/p/boxeeremote/wiki/AndroidUDP
+ * Developed at the Melbourne Android Australia User Group for the Global Android Dev Camp 17-19th Feb 2012.
+ * Thanks to Glenn and Guy; James for organizing and Daniel for the venue.  
+ */
